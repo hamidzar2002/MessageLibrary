@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "dgSpecHash": "SjK2TYGcBnrt4kxgHGsfSyov3fsQkCCjHZGk4vpWntvKQuwk4Rctz5x3lMxXvKQCVU27fpjrvBA1Z7gBvLUO8w==",
+  "success": true,
+  "projectFilePath": "/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging copy/Hz.libraries.messaging/Hz.Libraries.Messaging/Hz.Libraries.Messaging.csproj",
+  "expectedPackageFiles": [
+    "/Users/hamidzarrazvand/.nuget/packages/autofac/3.5.0/autofac.3.5.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/autofac.extras.commonservicelocator/3.2.0/autofac.extras.commonservicelocator.3.2.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/commonservicelocator/1.2.0/commonservicelocator.1.2.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/mediatr.cqrs/1.0.1/mediatr.cqrs.1.0.1.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/mediatr.extensions/0.6.0/mediatr.extensions.0.6.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/mediatr.extensions.autofac/0.6.0/mediatr.extensions.autofac.0.6.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.binder/5.0.0/microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.commandline/5.0.0/microsoft.extensions.configuration.commandline.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.environmentvariables/5.0.0/microsoft.extensions.configuration.environmentvariables.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.fileextensions/5.0.0/microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.json/5.0.0/microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.configuration.usersecrets/5.0.0/microsoft.extensions.configuration.usersecrets.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.fileproviders.abstractions/5.0.0/microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.fileproviders.physical/5.0.0/microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.filesystemglobbing/5.0.0/microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.hosting/5.0.0/microsoft.extensions.hosting.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.hosting.abstractions/5.0.0/microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.configuration/5.0.0/microsoft.extensions.logging.configuration.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.console/5.0.0/microsoft.extensions.logging.console.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.debug/5.0.0/microsoft.extensions.logging.debug.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.eventlog/5.0.0/microsoft.extensions.logging.eventlog.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.logging.eventsource/5.0.0/microsoft.extensions.logging.eventsource.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.options.configurationextensions/5.0.0/microsoft.extensions.options.configurationextensions.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/rabbitmq.client/6.2.1/rabbitmq.client.6.2.1.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.diagnostics.eventlog/5.0.0/system.diagnostics.eventlog.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512",
+    "/Users/hamidzarrazvand/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autofac 3.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autofac.Extras.CommonServiceLocator 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Autofac.Extras.CommonServiceLocator",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CommonServiceLocator 1.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "CommonServiceLocator",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MediatR.Extensions 0.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MediatR.Extensions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MediatR.Extensions.Autofac 0.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MediatR.Extensions.Autofac",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

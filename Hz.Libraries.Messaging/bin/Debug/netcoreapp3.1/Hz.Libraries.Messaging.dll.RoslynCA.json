@@ -1,0 +1,954 @@
+﻿{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.8.0.0",
+        "fileVersion": "3.8.0-5.20570.14 (6559f38c)",
+        "semanticVersion": "3.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0108",
+          "level": "warning",
+          "message": "'LogConsumer.queueName' hides inherited member 'ConsumerBase.queueName'. Use the new keyword if hiding was intended.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/LogConsumer.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 26,
+                  "endLine": 18,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'test' to match pascal case naming rules, consider using 'Test'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/ConfigureServices.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'MessageBuilder' to match pascal case naming rules, consider using 'IMessageBuilder'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/MessageBuilder.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 22,
+                  "endLine": 7,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/data/EventCallInput.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/data/EventCallInput.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'MessageHandler' to match pascal case naming rules, consider using 'IMessageHandler'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/MessageHandler.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 22,
+                  "endLine": 5,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'MessageParser' to match pascal case naming rules, consider using 'IMessageParser'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/MessageParser.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 22,
+                  "endLine": 5,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/data/InternalQueue.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 40,
+                  "endLine": 15,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field 'logConsumer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 29,
+                  "endLine": 28,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'RabbitmqConsumeHandler' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 16,
+                  "endLine": 35,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 16,
+                  "endLine": 71,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'setup' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 21,
+                  "endLine": 38,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 21,
+                  "endLine": 91,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'logConsumerLogger' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 38,
+                  "endLine": 30,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'consumerLogger' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 39,
+                  "endLine": 31,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'logger' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 45,
+                  "endLine": 32,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3881",
+          "level": "warning",
+          "message": "Fix this implementation of 'IDisposable' to conform to the dispose pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/RabbitMqClientBase.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 27,
+                  "endLine": 7,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/RabbitMqClientBase.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 27,
+                  "endLine": 7,
+                  "endColumn": 45
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/RabbitMqClientBase.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 21,
+                  "endLine": 56,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Provide 'protected' overridable implementation of 'Dispose(bool)' on 'RabbitMqClientBase' or mark the type as 'sealed'.",
+              "1": "'RabbitMqClientBase.Dispose()' should call 'Dispose(true)' and 'GC.SuppressFinalize(this)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'RabbitmqProduceHandler' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 16,
+                  "endLine": 33,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 16,
+                  "endLine": 72,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'setup' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 21,
+                  "endLine": 39,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 21,
+                  "endLine": 91,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/RabbitMqClientBase.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 62,
+                  "endLine": 29,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/RabbitMqClientBase.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 54,
+                  "endLine": 34,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/ConfigureServices.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 17,
+                  "endLine": 6,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3442",
+          "level": "warning",
+          "message": "Change the visibility of this constructor to 'protected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/ConsumerBase.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 9,
+                  "endLine": 21,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'factory'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 29,
+                  "endLine": 47,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S107",
+          "level": "warning",
+          "message": "Method has 11 parameters, which is greater than the 7 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqProduceHandler.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 26,
+                  "endLine": 103,
+                  "endColumn": 248
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4792",
+          "level": "warning",
+          "message": "Make sure that this logger's configuration is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 45,
+                  "endLine": 57,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'factory'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 25,
+                  "endLine": 47,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S107",
+          "level": "warning",
+          "message": "Method has 10 parameters, which is greater than the 7 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/MessageBuilder.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 34,
+                  "endLine": 24,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S107",
+          "level": "warning",
+          "message": "Method has 10 parameters, which is greater than the 7 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/RabbitmqConsumeHandler.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 26,
+                  "endLine": 104,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1116",
+          "level": "warning",
+          "message": "Remove this empty statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/handler/MessageBuilderImp.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 166,
+                  "endLine": 60,
+                  "endColumn": 167
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S107",
+          "level": "warning",
+          "message": "Constructor has 8 parameters, which is greater than the 7 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/rabbitmq/LogConsumer.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 27,
+                  "endLine": 45,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0108": {
+          "id": "CS0108",
+          "shortDescription": "Member hides inherited member; missing new keyword",
+          "fullDescription": "A variable was declared with the same name as a variable in a base type. However, the new keyword was not used. This warning informs you that you should use new; the variable is declared as if new had been used in the declaration.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S107": {
+          "id": "S107",
+          "shortDescription": "Methods should not have too many parameters",
+          "fullDescription": "A long parameter list can indicate that a new structure should be created to wrap the numerous parameters or that the function is doing too many things.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-107",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S1116": {
+          "id": "S1116",
+          "shortDescription": "Empty statements should be removed",
+          "fullDescription": "Empty statements, i.e. ;, are usually introduced by mistake, for example because:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it's not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3442": {
+          "id": "S3442",
+          "shortDescription": "\"abstract\" classes should not have \"public\" constructors",
+          "fullDescription": "Since abstract classes can't be instantiated, there's no point in their having public or internal constructors. If there is basic initialization logic that should run when an extending class instance is created, you can by all means put it in a constructor, but make that constructor private or protected.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3442",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3881": {
+          "id": "S3881",
+          "shortDescription": "\"IDisposable\" should be implemented correctly",
+          "fullDescription": "The IDisposable interface is a mechanism to release unmanaged resources, if not implemented correctly this could result in resource leaks or more severe bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3881",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S4792": {
+          "id": "S4792",
+          "shortDescription": "Configuring loggers is security-sensitive",
+          "fullDescription": "Configuring loggers is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4792",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

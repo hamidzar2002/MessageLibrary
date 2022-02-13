@@ -1,0 +1,8 @@
+﻿/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/bin/Release/netcoreapp3.1/Hz.Libraries.Messaging.deps.json
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/bin/Release/netcoreapp3.1/Hz.Libraries.Messaging.dll
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/bin/Release/netcoreapp3.1/Hz.Libraries.Messaging.pdb
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/obj/Release/netcoreapp3.1/Hz.Libraries.Messaging.AssemblyInfoInputs.cache
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/obj/Release/netcoreapp3.1/Hz.Libraries.Messaging.AssemblyInfo.cs
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/obj/Release/netcoreapp3.1/Hz.Libraries.Messaging.csproj.CoreCompileInputs.cache
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/obj/Release/netcoreapp3.1/Hz.Libraries.Messaging.dll
+/Users/hamidzarrazvand/Documents/mydocs/HoodTech/projects/messaging/Hz.libraries.messaging/Hz.Libraries.Messaging/obj/Release/netcoreapp3.1/Hz.Libraries.Messaging.pdb
